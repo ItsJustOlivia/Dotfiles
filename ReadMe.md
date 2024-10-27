@@ -20,4 +20,4 @@ pywal
 
 xorg
 
-xcompmgr
+xcompmgr (picom aso works very good in arch, but my current mint setup hates it for some reason.)
