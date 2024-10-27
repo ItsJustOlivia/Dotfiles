@@ -66,7 +66,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show drun
+bindsym $mod+d exec /home/getstalks/rofimenu.sh &
 
 
 # A more modern dmenu replacement is rofi:
@@ -203,6 +203,6 @@ exec feh --bg-fill /home/getstalks/Downloads/forest.png
 for_window [class="^.*"] border pixel 3
 exec polybar
 exec xcompmgr
-bindsym $mod+u exec wal -i /home/getstalks/Downloads/forest.png
+exec /home/getstalks/colors.sh &
 
 bindsym $mod+Shift+p exec betterlockscreen --lock blur
